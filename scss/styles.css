@@ -1,4 +1,4 @@
-@import url(/css/normalize.css);
+@import url(../css/normalize.css);
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px; }
@@ -35,13 +35,13 @@ body {
     .news-block .news-block__body a:hover .news-block__body {
       transform: scale(1.1); }
   .news-block .news-block__body.news-block_body_element1 {
-    background-image: url("/img/bg_1.jpg"); }
+    background-image: url("../img/bg_1.jpg"); }
   .news-block .news-block__body.news-block_body_element2 {
-    background-image: url("/img/bg_2.jpg"); }
+    background-image: url("../img/bg_2.jpg"); }
   .news-block .news-block__body.news-block_body_element3 {
-    background-image: url("/img/bg_3.png"); }
+    background-image: url("../img/bg_3.png"); }
   .news-block .news-block__body.news-block_body_element4 {
-    background-image: url("/img/bg_4.jpg"); }
+    background-image: url("../img/bg_4.jpg"); }
   .news-block .news-block__body .news-block__body-date {
     color: #fff;
     position: absolute;
