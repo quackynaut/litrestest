@@ -130,7 +130,23 @@ body {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .news {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 330px; }
+    .news .news-block {
+      margin-bottom: -3px; }
+      .news .news-block .news-block__header {
+        margin-bottom: 6px; }
+      .news .news-block .news-block__body .news-block__body-date {
+        top: 16px;
+        right: 17px;
+        padding: 2px 20px 9px; }
+      .news .news-block .news-block__footer {
+        margin-top: 12px; }
+        .news .news-block .news-block__footer .news-block__footer-line1 {
+          padding: 0 9px; }
+        .news .news-block .news-block__footer .news-block__footer-name {
+          margin-top: 7px;
+          padding: 0px 9px; }
 
   .container {
     width: auto; } }
