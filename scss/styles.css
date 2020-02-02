@@ -1,4 +1,4 @@
-@import url(/css/normalize.css);
+@import url(../css/normalize.css);
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px; }
@@ -35,13 +35,13 @@ body {
     .news-block .news-block__body a:hover .news-block__body {
       transform: scale(1.1); }
   .news-block .news-block__body.news-block_body_element1 {
-    background-image: url("/img/bg_1.jpg"); }
+    background-image: url("../img/bg_1.jpg"); }
   .news-block .news-block__body.news-block_body_element2 {
-    background-image: url("/img/bg_2.jpg"); }
+    background-image: url("../img/bg_2.jpg"); }
   .news-block .news-block__body.news-block_body_element3 {
-    background-image: url("/img/bg_3.png"); }
+    background-image: url("../img/bg_3.png"); }
   .news-block .news-block__body.news-block_body_element4 {
-    background-image: url("/img/bg_4.jpg"); }
+    background-image: url("../img/bg_4.jpg"); }
   .news-block .news-block__body .news-block__body-date {
     color: #fff;
     position: absolute;
@@ -134,6 +134,9 @@ body {
   .container {
     width: auto; } }
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  body {
+    margin: 0; }
+
   .news {
     grid-template-columns: repeat(1, 1fr); }
 
@@ -144,7 +147,7 @@ body {
     width: auto; }
 
   .news-block {
-    margin-bottom: 18px; }
+    margin-bottom: -3px; }
     .news-block.news-block--tall .news-block__body {
       height: 184px; }
     .news-block .news-block__header {
@@ -156,7 +159,7 @@ body {
       letter-spacing: 0.02em;
       padding: 4px 5px;
       margin-right: 4%; }
-    .news-block .news-block__header-author-name {
+    .news-block .news-block__header-author .news-block__header-author-name {
       margin-left: 16px; }
     .news-block .news-block__body {
       height: 184px; }
@@ -173,13 +176,21 @@ body {
         .news-block .news-block__body .news-block__body-date .news-block__bod-day {
           font-size: 26px;
           line-height: 32px; }
+      .news-block .news-block__body .news-block__body-text {
+        font-size: 26px;
+        line-height: 28px;
+        padding: 14px 0 0 16px;
+        width: 67%; }
     .news-block .news-block__footer {
-      margin-top: 6px; }
+      margin-top: 2px; }
       .news-block .news-block__footer .news-block__footer-line1 {
         padding: 0 8px; }
       .news-block .news-block__footer .news-block__footer-name {
         margin-top: 3px;
         padding: 0 7px;
-        letter-spacing: -1px; } }
+        letter-spacing: -0.9px; }
+
+  .news-button a {
+    margin: 65px auto; } }
 
 /*# sourceMappingURL=styles.css.map */
