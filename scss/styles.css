@@ -171,7 +171,8 @@ body {
 
   .news {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 16px; }
+    grid-gap: 16px;
+    margin-top: 340px; }
 
   .container {
     width: auto; }
@@ -180,7 +181,7 @@ body {
     width: auto; }
 
   .news-block {
-    margin-bottom: 0; }
+    margin-bottom: -2px; }
     .news-block.news-block--tall .news-block__body {
       height: 184px; }
     .news-block .news-block__header {
@@ -192,8 +193,6 @@ body {
       letter-spacing: 0.02em;
       padding: 4px 5px;
       margin-right: 4%; }
-    .news-block .news-block__header-author .news-block__header-author-avatar {
-      margin-left: 7px; }
     .news-block .news-block__header-author .news-block__header-author-name {
       margin-left: 9px; }
     .news-block .news-block__body {
@@ -211,6 +210,8 @@ body {
         .news-block .news-block__body .news-block__body-date .news-block__bod-day {
           font-size: 26px;
           line-height: 32px; }
+        .news-block .news-block__body .news-block__body-date .news-block__body-month {
+          line-height: 13px; }
       .news-block .news-block__body .news-block__body-text {
         font-size: 26px;
         line-height: 28px;
@@ -224,8 +225,14 @@ body {
         margin-top: 3px;
         padding: 0 7px;
         letter-spacing: -0.9px; }
+        .news-block .news-block__footer .news-block__footer-name a {
+          line-height: 24px; }
 
   .news-button a {
-    margin: 65px auto; } }
+    margin: 65px auto;
+    padding: 10px 1px;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+    line-height: 16px; } }
 
 /*# sourceMappingURL=styles.css.map */

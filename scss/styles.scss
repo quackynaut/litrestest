@@ -272,6 +272,7 @@ body {
     .news {
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 16px;
+        margin-top: 340px;
     }
 
     .container {
@@ -284,7 +285,7 @@ body {
     }
 
     .news-block {
-        margin-bottom: 0;
+        margin-bottom: -2px;
 
         &.news-block--tall {
             .news-block__body {
@@ -306,10 +307,6 @@ body {
         }
 
         .news-block__header-author {
-
-            .news-block__header-author-avatar {
-                margin-left: 7px;
-            }
 
             .news-block__header-author-name {
                 margin-left: 9px;
@@ -338,6 +335,10 @@ body {
                     font-size: 26px;
                     line-height: 32px;
                 }
+
+                .news-block__body-month {
+                    line-height: 13px;
+                }
             }
 
             .news-block__body-text {
@@ -360,6 +361,10 @@ body {
                 margin-top: 3px;
                 padding: 0 7px;
                 letter-spacing: -0.9px;
+
+                a {
+                    line-height: 24px;
+                }
             }
         }
 
@@ -367,6 +372,10 @@ body {
 
     .news-button a {
         margin: 65px auto;
+        padding: 10px 1px;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
 
