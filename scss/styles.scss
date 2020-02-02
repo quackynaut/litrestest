@@ -214,6 +214,10 @@ body {
                 margin-bottom: 6px;
             }
 
+            .news-block__header-author {
+                margin-left: 8px;
+            }
+
             .news-block__body {
                 .news-block__body-date {
                     top: 16px;
@@ -239,6 +243,11 @@ body {
 
     .container {
         width: auto;
+    }
+
+    .news-button a {
+        margin: 73px auto;
+        padding: 7px 1px;
     }
 
 }

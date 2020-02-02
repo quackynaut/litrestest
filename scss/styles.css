@@ -136,6 +136,8 @@ body {
       margin-bottom: -3px; }
       .news .news-block .news-block__header {
         margin-bottom: 6px; }
+      .news .news-block .news-block__header-author {
+        margin-left: 8px; }
       .news .news-block .news-block__body .news-block__body-date {
         top: 16px;
         right: 17px;
@@ -149,7 +151,11 @@ body {
           padding: 0px 9px; }
 
   .container {
-    width: auto; } }
+    width: auto; }
+
+  .news-button a {
+    margin: 73px auto;
+    padding: 7px 1px; } }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body {
     margin: 0; }
